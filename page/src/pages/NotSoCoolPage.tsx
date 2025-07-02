@@ -1,9 +1,6 @@
-import { tss } from 'tss-react'
-
-const useStyles = tss.create({ container: { h1: { color: 'orange' } } })
+import classes from '../styles/NotSoCoolPage.module.scss'
 
 export default function NotSoCoolPage() {
-  const { classes } = useStyles()
   return (
     <div className={classes.container}>
       <h1>This is my not so cool page</h1>

@@ -15,11 +15,9 @@ export default defineConfig({
           dontAppendStylesToHead: true
         },
         './NotSoCoolPage': {
-          import: './src/pages/NotSoCoolPage.tsx',
-          dontAppendStylesToHead: true
+          import: './src/pages/NotSoCoolPage.tsx'
         }
       },
-
       remotes: {
         layout: 'http://localhost:4173/assets/layout.js'
       },
